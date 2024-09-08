@@ -1,0 +1,282 @@
+.footer{
+    border: 1px solid black;
+    position: relative;
+    margin-top: 15vh;
+    background-color: black;
+    width: 100%;
+    height: 75vh;
+}
+.footer .footer-content1{
+    position: absolute;
+    width: 20vw;
+    height: 45vh;
+    margin-left: 3vw;
+    display: flex;
+}
+.footer .footer-content1 .footer-title{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-content1 .footer-title h3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: underline;
+    justify-content: center;
+    color: white;
+    padding-top: 3vh;
+    font-size: clamp(1rem, 4vw, 2em);
+    font-weight: 600;
+}
+.footer .footer-content1 .footer-title p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 1vh 1vw 0px 2vw;
+}
+.footer .footer-content1 .footer-title ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5vw;
+}
+.footer .footer-content1 .footer-title ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 5vh;
+    list-style: none;
+}
+.footer .footer-content1 .footer-title ul li a{
+    text-decoration: none;
+    
+}
+.footer .footer-content1 .footer-title ul li .fa-facebook{
+    background: -webkit-linear-gradient(rgb(6, 86, 235), blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer .footer-content1 .footer-title ul li .fa-facebook:hover{
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+
+}
+.footer .footer-content1 .footer-title ul li .fa-square-instagram{
+    background: -webkit-linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer .footer-content1 .footer-title ul li .fa-square-instagram:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+}
+.footer .footer-content1 .footer-title ul li .fa-square-x-twitter{
+    background: -webkit-linear-gradient(white,white,white,black,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer .footer-content1 .footer-title ul li .fa-square-x-twitter:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+}
+
+/* footer_content2 */
+.footer .footer-content2{
+    position: absolute;
+    width: 20vw;
+    height: 45vh;
+    margin-left: 30vw;
+    display: flex;
+}
+.footer .footer-content2 .footer-title{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-content2 .footer-title h3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: white;
+    padding-top: 3vh;
+    font-size: clamp(1rem, 4vw, 1.3em);
+    text-decoration: underline;
+    font-weight: 600;
+}
+.footer .footer-content2 .footer-title p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 1vh 1vw 0px 2vw;
+}
+.footer .footer-content2 .footer-title li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-content2 .footer-title  a{
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    line-height: 7vh;
+}
+.footer .footer-content2 .footer-title  a:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+/* footer_content3 */
+.footer .footer-content3{
+    position: absolute;
+    width: 20vw;
+    height: 45vh;
+    margin-left: 55vw;
+    display: flex;
+}
+/* .footer .footer-content3 .footer-title{
+    display: block;
+    align-items: center;
+    justify-content: center;
+} */
+.footer .footer-content3 .footer-title h3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: underline;
+    justify-content: center;
+    color: white;
+    padding-top: 3vh;
+    font-size: clamp(1rem, 4vw, 1.3em);
+    font-weight: 600;
+}
+.footer .footer-content3 .footer-title ul{
+    /* display: block; */
+    display: inline-block;
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    padding-right: 5vw;
+    margin-top: -7vh;
+}
+.footer .footer-content3 .footer-title ul .fa-phone{
+    color: green;
+    margin-top: 6vh;
+}
+.footer .footer-content3 .footer-title ul .footText{
+    color: white;
+    text-decoration: underline;
+}
+.footer .footer-content3 .footer-title ul .footText:hover{
+    color: red;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.footer .footer-content3 .footer-title ul .number{
+    margin-left: 1vw;
+    color: grey;
+}
+.footer .footer-content3 .footer-title ul li{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 10px;
+    /* padding-top: 5vh; */
+    list-style: none;
+}
+.footer .footer-content3 .footer-title ul li a{
+    text-decoration: none;
+}
+/* Email address */
+.footer .footer-content3 .footer-title ul li .fa-envelope{
+    color: white;
+    position: relative;
+    margin-top: -12vh;
+}
+.footer .footer-content3 .footer-title ul li .footText2{
+    color: white;
+    text-decoration: underline;
+}
+.footer .footer-content3 .footer-title ul li .footText2:hover{
+    cursor: pointer;
+    color: red;
+    transition: all 0.4s ease;
+}
+.footer .footer-content3 .footer-title ul .footText3{
+    color: grey;
+}
+.footer .footer-content3 .footer-title ul .footText4{
+    color: white;
+}
+.footer .footer-content3 .footer-title ul .footText4:hover{
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+/* Location */
+.footer .footer-content3 .footer-title ul .fa-location-pin{
+    color: white;
+}
+.footer .footer-content3 .footer-title ul .footText5{
+    margin-top: -2vh;
+    color: white;
+    padding-left: 2vw;
+    text-decoration: underline;
+}
+.footer .footer-content3 .footer-title ul .address{
+    color: grey;
+    /* padding-right: 4vw; */
+    margin-right: 4vw;
+   padding-left: 3vw;
+}
+.footer .footer-content3 .footer-title ul .address:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+/* footer_content4 */
+.footer .footer-content4{
+    position: absolute;
+    height: 10vh;
+    margin-left: 76vw;
+    margin-top: 3vh;
+    /* display: flex; */
+}
+.footer .footer-content4 .footer-title h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem, 4vw, 1.3em);
+    font-weight: 600;
+    margin-left: 2vw;
+    text-decoration: underline;
+    color: white;
+}
+.footer .footer-content4 .footer-title .imageHead{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 10px;
+    height: 10px;
+    margin-top: 4vh;
+}
+.footer .footer-content4 .footer-title .imageHead .images{
+    height: 10vh;
+    width: 5vw;
+}
+
+/* endText */
+footer .endText{
+    color: rgb(124, 116, 116);
+    position: absolute;
+    margin: -5vh 0px 0px 25vw;
+}

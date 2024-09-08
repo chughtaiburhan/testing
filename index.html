@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Webstie</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1><span class="firstHead animated">BARRY</span><span class="secondHead animated">SHOES</span></h1>
+        <nav class="navbar" id="navList">
+            <ul id="navList">
+                <i class="fa fa-multiply" id="noneIcon" onclick="noneNav()"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Shop Now</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1 id="nameChanger">SHOE DAISY</h1>
+
+    <div class="iconic">
+
+        <i class="fa fa-search animated" id="searchIcon"></i>
+        <i class="fa fa-multiply animated" id="crossIcon"></i>
+        <input type="text" class="form-control" id="searchBar" placeholder="enter your city" list="datalistOptions"
+            title="search">
+        <Datalist id="datalistOptions">
+            <option value="San Francisco">
+            <option value="New York">
+            <option value="Seattle">
+            <option value="Los Angeles">
+            <option value="Chicago">
+        </Datalist>
+        <i class="fa fa-equals animated" id="equalIcon" onclick="showNav()"></i>
+    </div>
+
+
+    <!-- CONTENTS_ -->
+    <div class="gallery">
+        <!-- content1 -->
+        <div class="cont1">
+            <img class="leftSide1" src="b1.jpg" alt="Shoes">
+            <div class="card1">
+                <h2 class="animated">SneakerPlug</h2>
+                <p class="animated">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias
+                    consequatur.sed quia non numquam eius modi tempora incidunt ut labore et dolore .</p>
+                <button id="shop1">Shop now</button>
+            </div>
+        </div>
+        <div class="rightimg1">
+            <img class="rightSide1" src="b2.jpg" alt="">
+            <h2>Airforce</h2>
+        </div>
+        <!-- content2 -->
+        <div class="card2">
+            <h2 class="animated">AirShoes</h2>
+            <p class="animated">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias
+                consequatur.sed quia non numquam eius modi tempora incidunt ut labore et dolore .</p>
+            <button id="shop2">Shop now</button>
+        </div>
+        <div class="rightimg2">
+            <img class="rightSide2" src="b3.jpg" alt="">
+            <h2>BestSoul</h2>
+        </div>
+        <div class="rightimg3">
+            <img class="rightSide3" src="b4.jpg" alt="">
+            <h2>ElleShoes</h2>
+        </div>
+        <!-- content3 -->
+        <div class="card3">
+            <h2 class="animated">Fashionable</h2>
+            <p class="animated">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias
+                consequatur.sed quia non numquam eius modi tempora incidunt ut labore et dolore .</p>
+            <button id="shop3">Shop now</button>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <!-- footer_content1 -->
+            <div class="footer-content1">
+                <div class="footer-title">
+                    <h3 class="animated">Barry Shoes</h3>
+                    <p class="animated">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                        tempora.</p>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook animated"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-instagram animated"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-x-twitter animated"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- footer_content2 -->
+            <div class="footer-content2">
+                <div class="footer-title">
+                    <h3 class="animated">Our information</h3>
+                    <p class="animated">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                        tempora.</p>
+                    <li><a href="" class="animated">Home</a></li>
+                    <li><a href="" class="animated">Services</a></li>
+                    <li><a href="" class="animated">Contact</a></li>
+                </div>
+            </div>
+
+            <!-- footer_content3 -->
+            <div class="footer-content3">
+                <div class="footer-title">
+                    <h3 class="animated">Store information</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone animated"></i> <span class="footText animated">Phone Number</span></li>
+                         <p class="number animated">+92 3222051533</p>
+                        <li><i class="fa-regular fa-envelope animated"></i> <span class="footText2 animated">Email Address</span></li>
+                        <span class="footText3 animated">Email:</span><span class="footText4 animated">mail@example.com</span>
+                        <li><i class="fa-solid fa-location-pin animated"></i><span class="footText5 animated">Location</span></li>
+                        <p class="address animated">11C/1 North Karchi,Pakistan</p> 
+                    </ul>
+                </div>
+            </div>
+
+            <!-- footer_content4 -->
+            <div class="footer-content4">
+                <div class="footer-title animated">
+                    <h3>Flick Posts</h3>
+                    <div class="imageHead animated">
+                    <img src="footerimg1.jfif" alt="" class="images  imag1">
+                    <img src="footerimg2.jfif" alt="" class="images  imag2">
+                    <img src="footerimg3.jfif" alt="" class="images  imag3">
+                    <img src="footerimg4.jfif" alt="" class="images  imag4">
+                    <img src="footerimg5.jfif" alt="" class="images  imag5">
+                    <img src="footerimg6.jfif" alt="" class="images  imag6">
+                    <img src="footerimg7.jfif" alt="" class="images  imag7">
+                    <img src="footerimg8.jfif" alt="" class="images  imag8">
+                    <img src="footerimg9.jfif" alt="" class="images  imag9">
+                </div>
+                </div>
+            </div>
+        </div>
+        <p class="endText">© 2024 Barry Shoes. All rights reserved | Design by this website.</p>
+    </footer>
+
+    <script src="action.js"></script>
+    <script src="animation.js"></script>
+</body>
+
+</html>
